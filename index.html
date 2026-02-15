@@ -3,17 +3,26 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Faiza Maalim – Cheffe de projet IT</title>
+  <title>Faiza Maalim – Chef de projet IT</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="assets/css/style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 />
 
 </head>
+
 <body>
   <header>
-    <img class="profile-logo" src="assets/img/logo/fm_1.png" alt="Logo personnel">
+    <!-- <img class="profile-logo" src="assets/img/logo/fm_1.png" alt="Logo personnel"> -->
     <h1>Faiza Maalim</h1>
+    <div class="tags">
+  <span>IT Project</span>
+  <span>GMAO</span>
+  <span>Data</span>
+  <span>Full Stack</span>
+  <span>Programmation</span>
+</div>
+
     <p class="subtitle">Chef de projet IT - Applications GMAO</p>
     <p class="subtitle">Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE</p>
   </header>
@@ -21,32 +30,57 @@
   <section>
     <h2>À propos</h2>
     <p>
-      Jeune diplômée en MIAGE, spécialisée en informatique de gestion et applications métiers.
+      Jeune diplômée en MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers.
       J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience
       significative en support, développement et pilotage applicatif.
     </p>
   </section>
 
-  <section>
-    <h2>Expériences</h2>
+
+
+  <section id="experience">
+    <h2>Expériences professionnelles</h2>
+
     <div class="card">
-      <h3>Apprentie Chef de Projet IT – Veolia</h3>
-      <span>2024 – 2026</span>
+      <h3>Chef de projet junior – Applications GMAO</h3>
+      <p><strong>Veolia Energie Performance</strong> · Sept. 2024 – Août 2026</p>
+      <p>
+        Intégrée à la DSI au sein de l’équipe Solutions Digitales aux Opérations,
+        avec un rôle mêlant évolution applicative, support utilisateurs et amélioration continue.
+      </p>
       <ul>
-        <li>Pilotage et amélioration d’applications GMAO</li>
-        <li>Automatisation de traitements de données (Python)</li>
-        <li>Support utilisateurs et suivi des incidents</li>
+        <li>Gestion de projets applicatifs (GMAO, portail client)</li>
+        <li>Analyse des besoins métiers et mise en œuvre d’une application métier dédiée aux techniciens, centralisant la gestion des équipements, des sites, des interventions et des plannings opérationnels.</li>
+        <li>Ajout de nouvelles fonctionnalités sur des applications existantes</li>
+        <li>Amélioration et optimisation de fonctionnalités en production</li>
+        <li>Correction de bugs et résolution d’anomalies</li>
+        <li>Support utilisateurs et traitement de tickets clients</li>
+        <li>Mise en place et suivi d’indicateurs KPI et tableaux de bord</li>
       </ul>
+      <span class="project-tech">
+        GMAO · BigQuery · Looker Studio · GCP · ServiceNow · Agile . Git · Python . API . VBA . Excel . Support technique · Gestion de projet . Documentation
+      </span>
     </div>
+
     <div class="card">
-      <h3>Stage Support & Développement – dDruid</h3>
-      <span>2024</span>
+      <h3>Stagiaire Support & Développement Informatique</h3>
+      <p><strong>dDruid – Solutions IoT</strong> · Mai 2024 – Août 2024</p>
+      <p>
+        Stage au sein d’une entreprise éditrice de solutions IoT No Code,
+        orienté support technique, développement et automatisation.
+      </p>
       <ul>
-        <li>Développement de connecteurs multi‑langages</li>
-        <li>Support applicatif et documentation technique</li>
+        <li>Développement de scripts multi-langages pour l’envoi de données IoT</li>
+        <li>Intégration des protocoles HTTP et MQTT</li>
+        <li>Rédaction de documentation technique et fonctionnelle</li>
+        <li>Création de dashboards et outils de démonstration clients</li>
       </ul>
+      <span class="project-tech">
+        C++ · Python · JavaScript · MQTT · HTTP · GitLab · Jira . Confluence · Documentation · Support technique
+      </span>
     </div>
   </section>
+
 
   <section>
     <h2>Compétences</h2>
@@ -210,14 +244,19 @@
       <div class="project-content">
         <h3>Projet Base de Données</h3>
         <p>
-          Réalisation d’un projet académique visant à répondre à un besoin
-          métier à travers une solution applicative complète.
+          Conception et réalisation d’un système de gestion des inscriptions
+          universitaires, depuis l’analyse des besoins fonctionnels jusqu’à
+          l’implémentation de la base de données.
         </p>
         <p>
-          Analyse des besoins, conception de la solution et implémentation
-          progressive en lien avec les méthodes enseignées en MIAGE.
+          Le projet a inclus la rédaction d’un cahier des charges, la planification
+          via diagramme de Gantt, la modélisation des données avec la méthode
+          <strong>Merise</strong>, puis la création et l’exploitation de la base
+          de données sous <strong>Microsoft Access</strong>.
         </p>
-        <span class="project-tech">Analyse • Conception • Développement</span>
+        <span class="project-tech">
+          Analyse des besoins • Cahier des charges • Gantt • Merise • Access • SQL
+        </span>
       </div>
     </div>
 
@@ -229,16 +268,18 @@
       <div class="project-content">
         <h3> Développement Web Frontend</h3>
         <p>
-          Conception et développement d’une application desktop permettant
-          la gestion structurée de rendez-vous (création, modification,
-          suppression et consultation).
+          Réalisation rapide d’un site vitrine pour une pharmacie,
+          mettant l’accent sur la clarté de l’information, l’accessibilité
+          et la présentation des services proposés.
         </p>
         <p>
-          L’application repose sur une architecture claire en C++ et intègre
-          une interface graphique intuitive réalisée avec <strong>Qt Creator</strong>,
-          mettant l’accent sur l’ergonomie et la fiabilité.
+          L’interface a été développée en <strong>HTML5</strong> et
+          <strong>CSS3</strong>, avec une attention particulière portée
+          à la structure, au responsive design et à l’expérience utilisateur.
         </p>
-        <span class="project-tech">C++ • Qt Creator • Programmation orientée objet</span>
+        <span class="project-tech">
+          HTML5 • CSS3 • Responsive Design • UX/UI
+        </span>
       </div>
     </div>
 
@@ -250,14 +291,20 @@
       <div class="project-content">
         <h3>Développement Web Backend</h3>
         <p>
-          Réalisation d’un projet académique visant à répondre à un besoin
-          métier à travers une solution applicative complète.
+          Conception et développement d’une application web complète de gestion
+          de produits, intégrant l’authentification, la gestion des rôles et
+          des permissions, ainsi qu’une API dédiée.
         </p>
         <p>
-          Analyse des besoins, conception de la solution et implémentation
-          progressive en lien avec les méthodes enseignées en MIAGE.
+          Le projet a été réalisé selon une approche <strong>API First</strong>,
+          avec une architecture orientée objet et hexagonale. Deux versions ont
+          été développées : une en <strong>PHP natif</strong> et une avec
+          <strong>Laravel</strong>, en respectant les standards
+          <strong>PSR</strong>.
         </p>
-        <span class="project-tech">Analyse • Conception • Développement</span>
+        <span class="project-tech">
+          PHP • Laravel • API REST • POO • PSR-1/4/7/12/18 • SQL Server • Authentification • Bootstrap
+        </span>
       </div>
     </div>
 
@@ -268,14 +315,18 @@
       <div class="project-content">
         <h3>Projet Stockage</h3>
         <p>
-          Réalisation d’un projet académique visant à répondre à un besoin
-          métier à travers une solution applicative complète.
+          Développement d’une application web permettant le chargement de vidéos
+          et leur traitement côté client avant envoi vers le cloud.
         </p>
         <p>
-          Analyse des besoins, conception de la solution et implémentation
-          progressive en lien avec les méthodes enseignées en MIAGE.
+          L’application, développée en <strong>React</strong>, extrait des frames
+          vidéo puis les transmet vers <strong>Supabase</strong>, illustrant une
+          logique de traitement asynchrone, de gestion des médias et
+          d’interaction avec des services cloud.
         </p>
-        <span class="project-tech">Analyse • Conception • Développement</span>
+        <span class="project-tech">
+          React • Supabase • Cloud Storage • Traitement Vidéo • JavaScript
+        </span>
       </div>
     </div>
 
@@ -286,14 +337,19 @@
       <div class="project-content">
         <h3>Projet Étude de Cas</h3>
         <p>
-          Réalisation d’un projet académique visant à répondre à un besoin
-          métier à travers une solution applicative complète.
+          Analyse complète des besoins d’un client dans le cadre d’un projet
+          de transformation numérique, incluant un site e-commerce,
+          un module de communication avec Sage, ainsi que des aspects
+          de référencement et d’hébergement.
         </p>
         <p>
-          Analyse des besoins, conception de la solution et implémentation
-          progressive en lien avec les méthodes enseignées en MIAGE.
+          Le projet a également intégré la proposition d’une solution e-commerce
+          adaptée et la préparation d’un plan de formation destiné aux utilisateurs
+          finaux.
         </p>
-        <span class="project-tech">Analyse • Conception • Développement</span>
+        <span class="project-tech">
+          Analyse métier • E-commerce • Intégration Sage • Hébergement • Formation utilisateurs
+        </span>
       </div>
     </div>
 
@@ -399,6 +455,22 @@
 
     </div>
   </footer>
+
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    });
+
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
 
 </body>
 </html>

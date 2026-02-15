@@ -17,6 +17,9 @@ header {
 .subtitle {
   opacity: 0.85;
 }
+
+
+
 section {
   max-width: 950px;
   margin: 3rem auto;
@@ -28,6 +31,32 @@ header h1 {
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 0.5rem; 
 }
+
+.tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.tags span {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.tags span:nth-child(2) { animation-delay: 0.2s; }
+.tags span:nth-child(3) { animation-delay: 0.4s; }
+.tags span:nth-child(4) { animation-delay: 0.6s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
 
 h2 {
   border-left: 4px solid #2563eb;
@@ -381,6 +410,30 @@ h2 {
   object-fit: contain;
   margin-bottom: 0.2rem;
   filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
+}
+
+.footer {
+  background: linear-gradient(to right, #24bceb, #1b1464);
+  color: white;
+}
+
+.footer-icon {
+  background: rgba(255,255,255,0.15);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.footer-item:hover .footer-icon {
+  transform: scale(1.2);
+  background: #bceb6b;
+}
+
+.skill-card i {
+  font-size: 2rem;
+  transition: transform 0.4s ease;
+}
+
+.skill-card:hover i {
+  transform: rotate(-5deg) scale(1.2);
 }
 
 
