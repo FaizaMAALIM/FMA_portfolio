@@ -172,6 +172,132 @@ h2 {
 }
 
 
+
+.recommendation-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  margin-top: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #e63946;
+}
+
+.recommendation-icon {
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff1f2;
+  color: #e63946;
+  border-radius: 15px;
+  font-size: 38px;
+}
+
+.recommendation-content {
+  flex: 1;
+}
+
+.recommendation-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+}
+
+.recommendation-content p {
+  margin-bottom: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.recommendation-author {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+
+.recommendation-author strong {
+  font-size: 1rem;
+  color: #222;
+}
+
+.recommendation-author span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.recommendation-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.recommendation-contact a {
+  color: #444;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.recommendation-contact a:hover {
+  color: #e63946;
+}
+
+.recommendation-contact i {
+  margin-right: 7px;
+  color: #e63946;
+}
+
+.recommendation-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.recommendation-button:hover {
+  background: #c92f3b;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+
+  .recommendation-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+  }
+
+  .recommendation-icon {
+    min-width: 65px;
+    width: 65px;
+    height: 65px;
+    font-size: 30px;
+  }
+
+  .recommendation-contact {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .recommendation-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+
 .project {
   display: grid;
   grid-template-columns: 2fr 1fr;
