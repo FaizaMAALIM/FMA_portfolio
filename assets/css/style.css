@@ -59,8 +59,8 @@ header h1 {
 
 
 h2 {
-  border-left: 4px solid #2563eb;
-  padding-left: 0.75rem;
+  border-left: none;
+  padding-left: 0;
 }
 .card {
   background: white;
