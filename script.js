@@ -1,14 +1,14 @@
 const translations = {
   fr: {
     "about.title": "À propos",
-    "about.description": "Jeune diplômée en MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
+    "about.description": "Diplômée d'un Master MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
 
     "header.name": "Faiza Maalim",
-    "header.job": "Chef de Projet Informatique - Applications GMAO / Développeuse Informatique",
+    "header.job": "Chef de Projet Informatique / Développeuse Informatique",
     "header.degree": "Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE",
 
     "experience.title": "Expériences professionnelles",
-    "experience.job1": "Chef de projet Informatique – Applications GMAO",
+    "experience.job1": "Chef de projet Informatique",
     "experience.job1.desc": "Pilotage et déploiement d'applications de gestion de maintenance assistée par ordinateur. Coordination entre les équipes techniques et les utilisateurs finaux.",
     "experience.job2": "Stagiaire Support et Développement Informatique",
     "experience.job2.desc": "Support utilisateur, résolution d'incidents et développement de fonctionnalités correctives et évolutives sur les applications internes.",
@@ -39,11 +39,11 @@ const translations = {
     "about.description": "MIAGE graduate specializing in IT, Business Management and Business Applications. I work at the intersection of technical teams and end users, with significant experience in support, software development and application management.",
 
     "header.name": "Faiza Maalim",
-    "header.job": "IT Project Manager - CMMS Applications / Software Developer",
+    "header.job": "IT Project Manager / Software Developer",
     "header.degree": "Master's Degree in Applied Computer Science for Business Management (MIAGE)",
 
     "experience.title": "Professional Experience",
-    "experience.job1": "IT Project Manager – CMMS Applications",
+    "experience.job1": "IT Project Manager",
     "experience.job1.desc": "Management and deployment of computerized maintenance management system applications. Coordination between technical teams and end users.",
     "experience.job2": "IT Support and Development Intern",
     "experience.job2.desc": "User support, troubleshooting, and development of corrective and evolutionary features on internal applications.",
@@ -74,7 +74,7 @@ const translations = {
     "about.description": "MIAGE-Absolventin mit Schwerpunkt Informatik, Unternehmensmanagement und Geschäftsanwendungen. Ich arbeite an der Schnittstelle zwischen technischen Teams und Anwendern und verfüge über umfangreiche Erfahrung in den Bereichen Support, Softwareentwicklung und Anwendungsmanagement.",
 
     "header.name": "Faiza Maalim",
-    "header.job": "IT-Projektmanagerin - CMMS-Anwendungen / Softwareentwicklerin",
+    "header.job": "IT-Projektmanagerin / Softwareentwicklerin",
     "header.degree": "Masterabschluss in Angewandter Informatik für Unternehmensmanagement (MIAGE)",
 
     "experience.title": "Berufserfahrung",
