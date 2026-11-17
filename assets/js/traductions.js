@@ -3,21 +3,8 @@ const translations = {
     "about.title": "À propos",
     "about.description": "Jeune diplômée en MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
 
-    "header.degree": "Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE",
-    "header.job": "Jeune diplômée MIAGE – Support, Développement & Pilotage Applicatif",
-
-    "experience.title": "Expériences professionnelles",
-    "experience.job1": "Chef de projet Informatique – Applications GMAO",
-    "experience.job1.company": "Entreprise / Stage ou Alternance",
-    "experience.job1.period": "2024 - Présent",
-    "experience.job1.description":```javascript
-const translations = {
-  fr: {
-    "about.title": "À propos",
-    "about.description": "Jeune diplômée en MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
-
-    "header.name": "Votre Nom",
-    "header.job": "Chef de projet informatique & Développement",
+    "header.name": "Faiza Maalim",
+    "header.job": "Chef de Projet Informatique - Applications GMAO / Développeuse Informatique",
     "header.degree": "Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE",
 
     "experience.title": "Expériences professionnelles",
@@ -27,7 +14,7 @@ const translations = {
     "experience.job2.desc": "Support utilisateur, résolution d'incidents et développement de fonctionnalités correctives et évolutives sur les applications internes.",
 
     "recommendation.title": "Lettre de recommandation",
-    "recommendation.name": "Nom du Recommandant",
+    "recommendation.name": "Recommandation de Sevan AMPS",
     "recommendation.button": "Consulter la recommandation",
 
     "skills.title": "Compétences",
@@ -51,8 +38,8 @@ const translations = {
     "about.title": "About",
     "about.description": "MIAGE graduate specializing in IT, Business Management and Business Applications. I work at the intersection of technical teams and end users, with significant experience in support, software development and application management.",
 
-    "header.name": "Your Name",
-    "header.job": "IT Project Manager & Development",
+    "header.name": "Faiza Maalim",
+    "header.job": "IT Project Manager - CMMS Applications / Software Developer",
     "header.degree": "Master's Degree in Applied Computer Science for Business Management (MIAGE)",
 
     "experience.title": "Professional Experience",
@@ -62,7 +49,7 @@ const translations = {
     "experience.job2.desc": "User support, troubleshooting, and development of corrective and evolutionary features on internal applications.",
 
     "recommendation.title": "Letter of Recommendation",
-    "recommendation.name": "Recommender Name",
+    "recommendation.name": "Recommendation from Sevan AMPS",
     "recommendation.button": "View Recommendation",
 
     "skills.title": "Skills",
@@ -86,8 +73,8 @@ const translations = {
     "about.title": "Über mich",
     "about.description": "MIAGE-Absolventin mit Schwerpunkt Informatik, Unternehmensmanagement und Geschäftsanwendungen. Ich arbeite an der Schnittstelle zwischen technischen Teams und Anwendern und verfüge über umfangreiche Erfahrung in den Bereichen Support, Softwareentwicklung und Anwendungsmanagement.",
 
-    "header.name": "Ihr Name",
-    "header.job": "IT-Projektmanagerin & Entwicklung",
+    "header.name": "Faiza Maalim",
+    "header.job": "IT-Projektmanagerin - CMMS-Anwendungen / Softwareentwicklerin",
     "header.degree": "Masterabschluss in Angewandter Informatik für Unternehmensmanagement (MIAGE)",
 
     "experience.title": "Berufserfahrung",
@@ -97,7 +84,7 @@ const translations = {
     "experience.job2.desc": "Anwendersupport, Störungsbeseitigung sowie Entwicklung von Korrekturen und Erweiterungen für interne Anwendungen.",
 
     "recommendation.title": "Empfehlungsschreiben",
-    "recommendation.name": "Name des Empfehlungsgebers",
+    "recommendation.name": "Empfehlung von Sevan AMPS",
     "recommendation.button": "Empfehlungsschreiben ansehen",
 
     "skills.title": "Kenntnisse und Fähigkeiten",
@@ -137,7 +124,6 @@ function changeLanguage(language) {
 
 document.addEventListener("DOMContentLoaded", () => {
   const languageSelect = document.getElementById("languageSelect");
-
   const savedLanguage = localStorage.getItem("selectedLanguage") || "fr";
 
   if (languageSelect) {
@@ -148,4 +134,17 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   changeLanguage(savedLanguage);
+
+  // Animation au défilement (Intersection Observer)
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  document.querySelectorAll('section').forEach(section => {
+    observer.observe(section);
+  });
 });
