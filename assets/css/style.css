@@ -590,4 +590,48 @@ h2 {
 }
 
 
+/* Sélecteur de langue */
+
+header {
+  position: relative;
+}
+
+.language-selector {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.language-selector select {
+  padding: 9px 14px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.language-selector select option {
+  background: #1b1464;
+  color: white;
+}
+
+.language-selector select:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+@media (max-width: 600px) {
+  .language-selector {
+    position: static;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+
+
 
