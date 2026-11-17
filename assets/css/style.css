@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -8,17 +7,16 @@ body {
 }
 
 header {
-  /* background: linear-gradient(135deg, #0f172a, #1e293b); */
   background: linear-gradient(to right, #24bceb, #1b1464);
   color: white;
   padding: 3rem 1rem;
   text-align: center;
+  position: relative;
 }
+
 .subtitle {
   opacity: 0.85;
 }
-
-
 
 section {
   max-width: 950px;
@@ -57,11 +55,11 @@ header h1 {
   50% { transform: translateY(-6px); }
 }
 
-
 h2 {
   border-left: none;
   padding-left: 0;
 }
+
 .card {
   background: white;
   padding: 1.5rem;
@@ -69,7 +67,6 @@ h2 {
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   margin-top: 1.5rem;
 }
-
 
 .certifications {
   display: grid;
@@ -117,12 +114,11 @@ h2 {
   color: #6b7280;
 }
 
-
 .footer {
-  /* background-color: #1f2937;  */
   background: linear-gradient(to right, #24bceb, #1b1464);
   padding: 3rem 1rem;
   margin-top: 4rem;
+  color: white;
 }
 
 .footer-content {
@@ -149,6 +145,8 @@ h2 {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
+  background: rgba(255,255,255,0.15);
+  transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .footer-item h4 {
@@ -171,19 +169,18 @@ h2 {
   text-decoration: underline;
 }
 
-/* =========================
-   LETTRE DE RECOMMANDATION
-========================= */
+.footer-item:hover .footer-icon {
+  transform: scale(1.2);
+  background: #bceb6b;
+}
 
+/* LETTRE DE RECOMMANDATION */
 .recommendation-card {
   background: white;
   padding: 2rem 2.2rem;
   margin-top: 1.5rem;
-
   border-radius: 14px;
-
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -192,65 +189,39 @@ h2 {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.11);
 }
 
-
-/* Titre de la recommandation */
-
 .recommendation-content h3 {
   margin: 0;
-
   font-size: 1.35rem;
-
   color: #1b1464;
 }
 
-
-/* Fonction et entreprise */
-
 .recommendation-role {
   margin: 0.4rem 0 1.2rem;
-
   font-size: 0.95rem;
-
   color: #6b7280;
 }
 
-
-/* Description */
-
 .recommendation-description {
   max-width: 850px;
-
   margin: 0 0 1.3rem;
-
   color: #374151;
-
   line-height: 1.7;
 }
-
-
-/* Coordonnées */
 
 .recommendation-contact {
   display: flex;
   flex-wrap: wrap;
-
   gap: 1.5rem;
-
   margin-bottom: 1.5rem;
 }
 
 .recommendation-contact a {
   display: inline-flex;
   align-items: center;
-
   gap: 8px;
-
   color: #374151;
-
   font-size: 0.9rem;
-
   text-decoration: none;
-
   transition: color 0.3s ease;
 }
 
@@ -262,68 +233,40 @@ h2 {
   color: #2563eb;
 }
 
-
-/* Bouton */
-
 .recommendation-button {
   display: inline-flex;
   align-items: center;
-
   gap: 10px;
-
   padding: 11px 20px;
-
-  background: linear-gradient(
-    135deg,
-    #24bceb,
-    #1b1464
-  );
-
+  background: linear-gradient(135deg, #24bceb, #1b1464);
   color: white;
-
   text-decoration: none;
-
   border-radius: 8px;
-
   font-size: 0.9rem;
-
   font-weight: 600;
-
   box-shadow: 0 6px 15px rgba(27, 20, 100, 0.18);
-
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .recommendation-button:hover {
   transform: translateY(-2px);
-
   box-shadow: 0 10px 25px rgba(27, 20, 100, 0.28);
 }
 
-
-/* Responsive */
-
 @media (max-width: 700px) {
-
   .recommendation-card {
     padding: 1.5rem;
   }
-
   .recommendation-contact {
     flex-direction: column;
     gap: 0.8rem;
   }
-
   .recommendation-button {
     width: 100%;
     justify-content: center;
     box-sizing: border-box;
   }
 }
-
-
 
 .project {
   display: grid;
@@ -359,7 +302,6 @@ h2 {
   max-width: none;  
 }
 
-
 .project-content h3 {
   margin-top: 0;
   font-size: 1.4rem;
@@ -378,22 +320,17 @@ h2 {
   font-weight: 600;
 }
 
-
 @media (max-width: 900px) {
   .project {
     grid-template-columns: 1fr;
   }
-
   .project.reverse {
     direction: ltr;
   }
 }
 
-
 .personal-projects {
- 
   background: linear-gradient(135deg, #1b1464, #0f172a);
-
   padding: 6rem 1.5rem;
   margin-top: 5rem;
   border-radius: 12px;
@@ -451,18 +388,14 @@ h2 {
   box-shadow: 0 25px 60px rgba(0,0,0,0.35);
 }
 
-
 @media (max-width: 900px) {
   .personal-projects-grid {
     grid-template-columns: 1fr;
   }
-
   .section-title {
     font-size: 2.2rem;
   }
 }
-
-
 
 .featured-project {
   text-align: center;
@@ -488,7 +421,6 @@ h2 {
   transform: scale(1.03);
 }
 
-/* Projets secondaires */
 .secondary-projects {
   max-width: 1100px;
   margin: 0 auto;
@@ -508,12 +440,10 @@ h2 {
   transform: scale(1.04);
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .secondary-projects {
     grid-template-columns: 1fr;
   }
-
   .featured-project h3 {
     font-size: 1.6rem;
   }
@@ -544,6 +474,7 @@ h2 {
   font-size: 2.2rem;
   color: #1b1464;
   margin-bottom: 1rem;
+  transition: transform 0.4s ease;
 }
 
 .skill-card h3 {
@@ -556,6 +487,10 @@ h2 {
   color: #4b5563;
 }
 
+.skill-card:hover i {
+  transform: rotate(-5deg) scale(1.2);
+}
+
 .profile-logo {
   width: 110px;
   height: 110px;
@@ -563,37 +498,6 @@ h2 {
   object-fit: contain;
   margin-bottom: 0.2rem;
   filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
-}
-
-.footer {
-  background: linear-gradient(to right, #24bceb, #1b1464);
-  color: white;
-}
-
-.footer-icon {
-  background: rgba(255,255,255,0.15);
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.footer-item:hover .footer-icon {
-  transform: scale(1.2);
-  background: #bceb6b;
-}
-
-.skill-card i {
-  font-size: 2rem;
-  transition: transform 0.4s ease;
-}
-
-.skill-card:hover i {
-  transform: rotate(-5deg) scale(1.2);
-}
-
-
-/* Sélecteur de langue */
-
-header {
-  position: relative;
 }
 
 .language-selector {
@@ -631,7 +535,3 @@ header {
     margin-bottom: 20px;
   }
 }
-
-
-
-
