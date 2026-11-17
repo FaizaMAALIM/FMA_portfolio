@@ -1,14 +1,14 @@
 const translations = {
   fr: {
     // Header & About
-    "header.job": "Chef de Projet Informatique - Applications GMAO / Développeuse Informatique",
+    "header.job": "Chef de Projet Informatique / Développeuse Informatique",
     "header.degree": "Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE",
     "about.title": "À propos",
-    "about.description": "Jeune diplômée en MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
+    "about.description": "Diplômée d'un Master MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
 
     // Expériences
     "experience.title": "Expériences professionnelles",
-    "experience.job1.title": "Chef de projet Informatique – Applications GMAO",
+    "experience.job1.title": "Chef de projet Informatique",
     "experience.job1.company": "Veolia Energie Performance",
     "experience.job1.date": "Sept. 2024 – Août 2026",
     "experience.job1.intro": "Intégrée à la DSI au sein de l’équipe Solutions Digitales aux Opérations, avec un rôle mêlant évolution applicative, support utilisateurs et amélioration continue.",
@@ -20,7 +20,7 @@ const translations = {
     "experience.job1.task6": "Support utilisateurs et traitement de tickets clients",
     "experience.job1.task7": "Mise en place et suivi d’indicateurs KPI et tableaux de bord",
 
-    "experience.job2.title": "Stagiaire Support & Développement Informatique",
+    "experience.job2.title": "Développement et Support Informatique",
     "experience.job2.company": "dDruid – Solutions IoT",
     "experience.job2.date": "Mai 2024 – Août 2024",
     "experience.job2.intro": "Stage au sein d’une entreprise éditrice de solutions IoT No Code, orienté support technique, développement et automatisation.",
@@ -32,22 +32,22 @@ const translations = {
     // Recommandation
     "recommendation.title": "Lettre de recommandation",
     "recommendation.name": "Recommandation de Sevan AMPS",
-    "recommendation.role": "Responsable projets & Technologies – Veolia Energie Performance",
+    "recommendation.role": "Responsable projets et Technologies – Veolia Energie Performance",
     "recommendation.desc": "Cette recommandation témoigne de mon expérience, de mon implication et de mes compétences professionnelles dans le cadre de mes missions au sein de la DSI de Veolia Energie Performance.",
     "recommendation.button": "Consulter la recommandation",
 
     // Compétences
     "skills.title": "Compétences",
-    "skills.cat1": "Gestion & Collaboration",
+    "skills.cat1": "Gestion et Collaboration",
     "skills.cat2": "Programmation",
-    "skills.cat3": "Web & Full Stack",
-    "skills.cat4": "Bases de données & Data",
-    "skills.cat5": "Cloud & Google",
-    "skills.cat6": "Systèmes & Protocoles",
+    "skills.cat3": "Web et Full Stack",
+    "skills.cat4": "Bases de données et Data",
+    "skills.cat5": "Cloud et Google",
+    "skills.cat6": "Systèmes et Protocoles",
     "skills.cat7": "Scripting",
     "skills.cat8": "Mobile Android",
-    "skills.cat9": "UI / UX & Interfaces",
-    "skills.cat10": "IDE & Outils",
+    "skills.cat9": "UI / UX et Interfaces",
+    "skills.cat10": "IDE et Outils",
 
     // Certifications
     "certifications.title": "Certifications",
@@ -98,14 +98,14 @@ const translations = {
 
   en: {
     // Header & About
-    "header.job": "IT Project Manager - CMMS Applications / Software Developer",
+    "header.job": "IT Project Manager / Software Developer",
     "header.degree": "Master's Degree in Applied Computer Science for Business Management (MIAGE)",
     "about.title": "About",
     "about.description": "MIAGE graduate specializing in IT, Business Management and Business Applications. I work at the intersection of technical teams and end users, with significant experience in support, software development and application management.",
 
     // Expériences
     "experience.title": "Professional Experience",
-    "experience.job1.title": "IT Project Manager – CMMS Applications",
+    "experience.job1.title": "IT Project Manager",
     "experience.job1.company": "Veolia Energie Performance",
     "experience.job1.date": "Sept. 2024 – Aug. 2026",
     "experience.job1.intro": "Integrated into the IT department within the Digital Operations Solutions team, with a role combining application evolution, user support, and continuous improvement.",
@@ -117,7 +117,7 @@ const translations = {
     "experience.job1.task6": "User support and customer ticket handling",
     "experience.job1.task7": "Setup and monitoring of KPI indicators and dashboards",
 
-    "experience.job2.title": "IT Support & Development Intern",
+    "experience.job2.title": "IT Support and Development Intern",
     "experience.job2.company": "dDruid – IoT Solutions",
     "experience.job2.date": "May 2024 – Aug. 2024",
     "experience.job2.intro": "Internship at a No-Code IoT solutions publisher, focused on technical support, development, and automation.",
@@ -129,22 +129,22 @@ const translations = {
     // Recommandation
     "recommendation.title": "Letter of Recommendation",
     "recommendation.name": "Recommendation from Sevan AMPS",
-    "recommendation.role": "Projects & Technologies Manager – Veolia Energie Performance",
+    "recommendation.role": "Projects and Technologies Manager – Veolia Energie Performance",
     "recommendation.desc": "This recommendation attests to my experience, involvement, and professional skills as part of my missions within the Veolia Energie Performance IT department.",
     "recommendation.button": "View Recommendation",
 
     // Compétences
     "skills.title": "Skills",
-    "skills.cat1": "Management & Collaboration",
+    "skills.cat1": "Management and Collaboration",
     "skills.cat2": "Programming",
-    "skills.cat3": "Web & Full Stack",
-    "skills.cat4": "Databases & Data",
-    "skills.cat5": "Cloud & Google",
-    "skills.cat6": "Systems & Protocols",
+    "skills.cat3": "Web and Full Stack",
+    "skills.cat4": "Databases and Data",
+    "skills.cat5": "Cloud and Google",
+    "skills.cat6": "Systems and Protocols",
     "skills.cat7": "Scripting",
     "skills.cat8": "Mobile Android",
-    "skills.cat9": "UI / UX & Interfaces",
-    "skills.cat10": "IDE & Tools",
+    "skills.cat9": "UI / UX and Interfaces",
+    "skills.cat10": "IDE and Tools",
 
     // Certifications
     "certifications.title": "Certifications",
@@ -195,14 +195,14 @@ const translations = {
 
   de: {
     // Header & About
-    "header.job": "IT-Projektmanagerin - CMMS-Anwendungen / Softwareentwicklerin",
+    "header.job": "IT-Projektmanagerin / Softwareentwicklerin",
     "header.degree": "Masterabschluss in Angewandter Informatik für Unternehmensmanagement (MIAGE)",
     "about.title": "Über mich",
     "about.description": "MIAGE-Absolventin mit Schwerpunkt Informatik, Unternehmensmanagement und Geschäftsanwendungen. Ich arbeite an der Schnittstelle zwischen technischen Teams und Anwendern und verfüge über umfangreiche Erfahrung in den Bereichen Support, Softwareentwicklung und Anwendungsmanagement.",
 
     // Expériences
     "experience.title": "Berufserfahrung",
-    "experience.job1.title": "IT-Projektmanagerin – CMMS-Anwendungen",
+    "experience.job1.title": "IT-Projektmanagerin",
     "experience.job1.company": "Veolia Energie Performance",
     "experience.job1.date": "Sept. 2024 – Aug. 2026",
     "experience.job1.intro": "Integration in die IT-Abteilung innerhalb des Teams für digitale Operationslösungen, mit einer Rolle, die Anwendungsentwicklung, Benutzersupport und kontinuierliche Verbesserung kombiniert.",
@@ -226,22 +226,22 @@ const translations = {
     // Recommandation
     "recommendation.title": "Empfehlungsschreiben",
     "recommendation.name": "Empfehlung von Sevan AMPS",
-    "recommendation.role": "Manager für Projekte & Technologien – Veolia Energie Performance",
+    "recommendation.role": "Manager für Projekte und Technologien – Veolia Energie Performance",
     "recommendation.desc": "Dieses Empfehlungsschreiben bestätigt meine Erfahrung, mein Engagement und meine beruflichen Fähigkeiten im Rahmen meiner Aufgaben in der IT-Abteilung von Veolia Energie Performance.",
     "recommendation.button": "Empfehlungsschreiben ansehen",
 
     // Compétences
     "skills.title": "Kenntnisse und Fähigkeiten",
-    "skills.cat1": "Management & Zusammenarbeit",
+    "skills.cat1": "Management und Zusammenarbeit",
     "skills.cat2": "Programmierung",
-    "skills.cat3": "Web & Full Stack",
-    "skills.cat4": "Datenbanken & Data",
-    "skills.cat5": "Cloud & Google",
-    "skills.cat6": "Systeme & Protokolle",
+    "skills.cat3": "Web und Full Stack",
+    "skills.cat4": "Datenbanken und Data",
+    "skills.cat5": "Cloud und Google",
+    "skills.cat6": "Systeme und Protokolle",
     "skills.cat7": "Scripting",
     "skills.cat8": "Mobile Android",
-    "skills.cat9": "UI / UX & Interfaces",
-    "skills.cat10": "IDE & Tools",
+    "skills.cat9": "UI / UX und Interfaces",
+    "skills.cat10": "IDE und Tools",
 
     // Certifications
     "certifications.title": "Zertifizierungen",
