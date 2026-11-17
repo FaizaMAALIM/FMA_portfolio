@@ -11,6 +11,25 @@
 
 </head>
 
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  });
+
+  document.querySelectorAll('section').forEach(section => {
+    observer.observe(section);
+  });
+</script>
+
+<script src="assets/js/translations.js"></script>
+
+</body>
+</html>
+
 <body>
   <header>
     <!-- <img class="profile-logo" src="assets/img/logo/fm_1.png" alt="Logo personnel"> -->
