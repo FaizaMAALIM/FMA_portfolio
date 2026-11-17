@@ -4,7 +4,7 @@ const translations = {
     "header.job": "Chef de Projet Informatique / Développeuse Informatique",
     "header.degree": "Master 2 Méthodes Informatiques Appliquées à la Gestion des Entreprises MIAGE",
     "about.title": "À propos",
-    "about.description": "Diplômée d'un Master MIAGE, spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
+    "about.description": "Diplômée d'un Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises), spécialisée en Informatique, Gestion d'Entreprises et Applications métiers. J’évolue à l’interface entre les équipes techniques et les utilisateurs, avec une expérience significative en support, développement et pilotage applicatif.",
 
     // Expériences
     "experience.title": "Expériences professionnelles",
