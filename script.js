@@ -93,7 +93,16 @@ const translations = {
     "personal.notebook.title": "Bloc-note conçu entièrement avec Adobe Illustrator",
 
     // Footer
-    "footer.phone": "Téléphone"
+    "footer.phone": "Téléphone",
+
+    // Hobbies
+    "hobbies.title": "Centres d'intérêt",
+    "hobbies.tennis.title": "Tennis",
+    "hobbies.tennis.desc": "Pratique régulière sur court. Un sport qui m'apporte dynamisme et esprit de compétition.",
+    "hobbies.crafts.title": "Couture, Tricot et Broderie",
+    "hobbies.crafts.desc": "Création de pièces uniques, travail minutieux des textiles et passion pour le fait-main.",
+    "hobbies.design.title": "Design Graphique",
+    "hobbies.design.desc": "Création de visuels, illustrations et identités graphiques. J'aime allier esthétisme et fonctionnalité."
   },
 
   en: {
@@ -190,7 +199,16 @@ const translations = {
     "personal.notebook.title": "Notepad entirely designed with Adobe Illustrator",
 
     // Footer
-    "footer.phone": "Phone"
+    "footer.phone": "Phone",
+
+    // Hobbies
+    "hobbies.title": "Hobbies and Interests",
+    "hobbies.tennis.title": "Tennis",
+    "hobbies.tennis.desc": "Regular practice on the court. A sport that brings me dynamism and a competitive spirit.",
+    "hobbies.crafts.title": "Sewing, Knitting and Embroidery",
+    "hobbies.crafts.desc": "Creating unique pieces, meticulous textile work, and a passion for handmade crafts.",
+    "hobbies.design.title": "Graphic Design",
+    "hobbies.design.desc": "Creating visuals, illustrations, and brand identities. I enjoy combining aesthetics with functionality."
   },
 
   de: {
@@ -287,7 +305,17 @@ const translations = {
     "personal.notebook.title": "Notizblock, komplett mit Adobe Illustrator entworfen",
 
     // Footer
-    "footer.phone": "Telefon"
+    "footer.phone": "Telefon",
+
+    // Hobbies
+    "hobbies.title": "Hobbys und Interessen",
+    "hobbies.tennis.title": "Tennis",
+    "hobbies.tennis.desc": "Regelmäßiges Training auf dem Platz. Ein Sport, der mir Dynamik und Teamgeist verleiht.",
+    "hobbies.crafts.title": "Nähen, Stricken und Sticken",
+    "hobbies.crafts.desc": "Kreation einzigartiger Stücke, sorgfältige Textilarbeit und Leidenschaft für Handgemachtes.",
+    "hobbies.design.title": "Grafikdesign",
+    "hobbies.design.desc": "Erstellung von Visuals, Illustrationen und Markenidentitäten. Ich verbinde gerne Ästhetik mit Funktionalität."
+    
   }
 };
 
